@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rancho', sans-serif;
+  font-size: 20px;
+  background-color: #1b85b8;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-shadow:hover {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-container {
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+
+.card {
+  background-color: white;
+}
+
+.form-control {
+  background-color: #c3cb71;
+}
+
+.card-title {
+  text-align: center;
+}

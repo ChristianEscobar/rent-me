@@ -1,0 +1,11 @@
+.step-card {
+  background-color: #FF8000;
+}
+
+.card-title {
+  font-family: 'Luckiest Guy', sans-serif;
+  border-radius: 5%;
+  background-color: #1b85b8;
+  text-align: 'center';
+  padding: 1px;
+}
