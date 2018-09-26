@@ -2,11 +2,11 @@
   "name": "lead-generator",
   "version": "1.0.0",
   "description": "homeowner lead generator",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "client-install": "cd client && yarn install",
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "client": "cd client && yarn start",
     "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
@@ -20,5 +20,9 @@
     "node-zillow": "^2.0.0",
     "nodemailer": "^4.6.8",
     "nodemon": "^1.18.4"
-  }
+  },
+  "cacheDirectories": [
+    "server/node_modules",
+    "client/node_modules"
+  ]
 }
