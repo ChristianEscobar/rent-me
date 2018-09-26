@@ -1,15 +1,14 @@
 # rent-me
 
-## Setup
+## APIs
 <p>The application utilizes the following APIs:</p>
 
 * [Google Places API](https://developers.google.com/places/web-service/intro "Google Places API")
 * [Zillow API](https://www.zillow.com/howto/api/APIOverview.htm "Zillow API")
 
-<p>As well as the following Node modules:</p>
-* [Nodemailer](https://nodemailer.com/about "Nodemailer")
+## Setup
 
-<p>You will need to obtain your own API Keys and setup the files specified below.  Take note of the dev.js file where the API keys should be stored.  In addition, the dev.js file is where you will specify your email configuration details.</p>
+<p>You will need to obtain your own API Keys and setup the files specified below.  Take note of the dev.js file where the API keys should be stored.  In addition, the dev.js file is where you will specify your email configuration details for Nodemailer</p>
 
 <p>[ROOT_DIRECTORY]/config/keys.js</p>
 <pre>
