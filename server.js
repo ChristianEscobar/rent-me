@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require('express');
+const path = require('path');
 const bodyParser = require('body-parser');
 const keys = require('./config/keys');
 const PlaceAutocomplete = require('googleplaces/lib/PlaceAutocomplete');
