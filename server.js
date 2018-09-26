@@ -10,7 +10,9 @@ const nodemailer = require('nodemailer');
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static(`${__dirname}/public`));
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.get('/api/autocomplete/:address', (req, res) => {
   let placeAutocomplete = new PlaceAutocomplete(keys.googlePlacesApiKey, 'json');
