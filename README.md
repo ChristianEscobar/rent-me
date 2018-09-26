@@ -13,7 +13,7 @@
 
 <p>You will need to obtain your own API Keys and setup the files specified below.  Take note of the dev.js file where the API keys should be stored.  In addition, this is where you will specify your email configuration details.</p>
 
-<p>/config/keys.js</p>
+<p>[ROOT_DIRECTORY]/config/keys.js</p>
 <pre>
   <code>
     if (process.env.NODE_env === "production") {
@@ -24,7 +24,7 @@
   </code>
 </pre>
 
-<p>/config/dev.js</p>
+<p>[ROOT_DIRECTORY]/config/dev.js</p>
 <pre>
   <code>
     module.exports = {
