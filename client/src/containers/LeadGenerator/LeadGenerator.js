@@ -300,6 +300,7 @@ class LeadGenerator extends Component {
       lastName: this.state.lastName,
       phone: this.state.phone,
       email: this.state.email,
+      address: this.state.address,
       range: this.state.rentValuationRange,
       rent: this.state.expectedRent
     })

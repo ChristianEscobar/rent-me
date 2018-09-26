@@ -78,11 +78,11 @@ app.post('/api/send-email', (req, res) => {
         text: '',
         html: `<div>
           <p>Congratulations ${req.body.firstName}!</p>
-          <p>You have successfully signed up for Rent-Me.  Below are the details you have provided</p>
+          <p>You have successfully signed up.  Below are the details you have provided</p>
           <br />
-          <table>
+          <table style='background-color: #FAEBD7; box-shadow: 10px 10px 5px grey;'>
             <tr>
-              <td><th>Personal Data</th></td>
+              <td><th style='text-decoration: underline;'>Personal Data</th></td>
             </tr>
             <tr>
               <td>First Name:</td>
@@ -101,13 +101,17 @@ app.post('/api/send-email', (req, res) => {
               <td>${req.body.phone}</td>
             </tr>
             <tr colspan='2'>
-              <td><th>Rent Valuation Range</th><td>
+              <td><th style='text-decoration: underline;'>Rent Valuation Range</th><td>
+            </tr>
+            <tr colspan='2'>
+              <td>Address:</td>
+              <td>${req.body.address}</td>
             </tr>
             <tr colspan='2'>
               <td>Low:</td>
-              <td>$${req.body.range.low.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
+              <td style='padding: 0'>$${req.body.range.low.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
               <td>High:</td>
-              <td>$${req.body.range.high.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
+              <td style='padding: 0'>$${req.body.range.high.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
             </tr>
             <tr>
               <td>Expected Rent:</td>
