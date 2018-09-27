@@ -8,7 +8,7 @@
 
 ## Setup
 
-<p>You will need to obtain your own API Keys store the values in .env files in your local environment. In addition, the .env file should include configuratin for Nodemailer.  See below for the values which are required.  Check out this quick tutorial on setting up environment variables (https://codeburst.io/how-to-easily-set-up-node-environment-variables-in-your-js-application-d06740f9b9bd)</p>
+<p>You will need to obtain your own API Keys store the values in .env files in your local environment. In addition, the .env file should include configuratin for Nodemailer.  See below for the values which are required.  Check out this quick tutorial on setting up environment variables [here](https://codeburst.io/how-to-easily-set-up-node-environment-variables-in-your-js-application-d06740f9b9bd)</p>
 
 <p>[ROOT_DIRECTORY]/.env.default</p>
 <pre>
