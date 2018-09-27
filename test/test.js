@@ -23,4 +23,6 @@
   2. Validate user is unable to continue if required data is not provided.
   3. Validate history table is updated after input sequence is completed.
   4. Validate progress bar proceeds as expected.
+  5. Validate invalid input.
+  6. Validate email contains required details.
 */
